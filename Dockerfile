@@ -6,6 +6,6 @@ RUN  apt update \
 
 COPY index.html /user/share/nginx/html
 COPY script.js /user/share/nginx/html
-COPY style /user/share/nginx/html
+COPY style.css /user/share/nginx/html
 
 CMD [ "nginx" "-g" "daemnoff" ]
